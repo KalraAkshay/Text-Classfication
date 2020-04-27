@@ -69,8 +69,3 @@ print(accuracy)
 # Saving the model as pickle file
 with open('classifier.pickle', 'wb') as f:
     pickle.dump(classifier, f)
-
-
-
-
-
